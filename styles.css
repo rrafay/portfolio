@@ -1,0 +1,377 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo{
+    width: 4%;
+    border-radius: 200px;
+    opacity: 0.8;
+}
+
+.images {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bk-img {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 91%); */
+    /* clip-path: polygon(0 0, 100% 0, 100% 60%, 0 74%); */
+    
+}
+
+
+.logo{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 120;
+    
+}
+
+
+/* .centered {
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 100;
+  } */
+
+  .text-box {
+    position: flex;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    z-index: 100; 
+    margin-top: 10%;
+    flex-direction: row;
+}
+h4 {
+    display: inline-block;
+    font-size: 100px; 
+    color: #FFF; 
+ }
+
+ .text-box p {
+    
+    font-size: 20px; 
+    color: black; 
+ }
+
+
+ /* Button Start */
+ .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    
+    align-self: center;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+   
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+ .fifth {
+    border-color: #8e44ad;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  .fifth:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #8e44ad;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+  .fifth:hover {
+    color: #fff;
+  }
+  .fifth:hover:after {
+    width: 110%;
+  }
+
+  /* Button End */
+
+  .sec-2{
+        position: relative;    
+        height: 50%;
+        text-align: center;    
+        width: 100%;
+        z-index: 100; 
+        margin-top: 34%;
+        margin-bottom: 30%;
+        
+        
+  }
+
+  h3 {
+    display: inline-block;
+    font-size: 50px; 
+    color:black; 
+ }
+
+ 
+
+ h2{
+    font-size: 25px;
+    color: white;
+ }
+ .column p{
+     color: white;
+     font-size: 20px;
+ }
+
+ .text-box-2 p {
+    
+    font: caption;
+    font-size: 15px; 
+    color: black; 
+    
+ }
+
+
+ .third-pic{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    margin-top: 4%;
+    clip-path: polygon(0 44%, 100% 25%, 100% 77%, 0 98%);
+
+    
+}
+
+.text-box-3{
+    position: flex;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    z-index: 1; 
+    margin-top: 40%;
+    /* flex-direction: row; */
+    
+    
+}
+
+
+
+/* Float four columns side by side */
+.column {
+    
+    width: 25%;
+    padding: 0 10px;
+    float: left;
+  }
+
+  .columns{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+      margin: 0 -5px;
+        /* margin-top: 10%; */
+        display: flex;
+    }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+  .row-2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: inherit;
+
+  }
+
+  .card-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+    padding: 0px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 680px) {
+    .column {
+      width: 100%;
+      display:block;
+      /* margin-bottom: 20px; */
+      
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+
+
+    .row-2{
+        flex-direction: column;
+        /* margin-top: 5%; */
+        
+    }
+
+    .columns{
+        padding-bottom: 20px;
+    }
+    
+    
+  
+
+    
+
+    .bk-img{
+        position: fixed;
+    }
+
+    .third-pic{
+        display: none;
+    }
+
+
+   
+   
+  }
+
+
+  .card:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+  }
+
+  .card-2:hover {
+    background-position: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    transition: 0.2s ease-in-out;    
+  }
+
+
+  @keyframes up-bump {
+    0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+  }
+
+
+
+/* Project section */
+.proj-section{
+    position: relative;    
+    height: 50%;
+    text-align: center;    
+    width: 100%;
+    z-index: 100; 
+    /* margin-top: 150%; */
+    margin-bottom: 20%;
+}
+
+
+
+h1{
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
+.wet{
+    border-radius: 5px;
+    box-shadow: 0px 13px 45px -5px rgba(0,0,0,1);
+}
+
+
+.views{
+    padding-bottom: 20px;
+    
+}
+
+
+.views:hover{
+    opacity: .5;
+}
+
+ul
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center; 
+    list-style:none;
+  
+}
