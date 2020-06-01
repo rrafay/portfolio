@@ -245,6 +245,16 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+  }
+
+  .row-3{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    
   }
   
   /* Style the counter cards */
@@ -286,8 +296,17 @@ h4 {
         
     }
 
+    .row-3{
+        flex-direction: column;
+        /* margin-top: 5%; */
+        padding-top: 0px;
+        
+    }
+
+
+
     .columns{
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
     
     
