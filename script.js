@@ -1,4 +1,5 @@
 var button = document.querySelector(".fifth");
+var icn = document.querySelector(".logo");
 
 button.addEventListener("click", function(){
     //console.log("clicked")
@@ -8,3 +9,7 @@ button.addEventListener("click", function(){
 
 
 });
+
+icn.addEventListener("click", function(){
+    document.getElementById("first-section").scrollIntoView({behavior: "smooth"});
+})

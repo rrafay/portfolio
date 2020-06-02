@@ -17,6 +17,11 @@ body{
     width: 4%;
     border-radius: 200px;
     opacity: 0.8;
+    
+}
+
+.logo:hover{
+    cursor:pointer;
 }
 
 .images {
@@ -113,9 +118,9 @@ h4 {
   }
 
  .fifth {
-    border-color: #8e44ad;
+    border-color: white;
     border-radius: 0;
-    color: #8e44ad;
+    color: white;
     position: relative;
     overflow: hidden;
     z-index: 1;
