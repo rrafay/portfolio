@@ -157,7 +157,7 @@ h4 {
         text-align: center;    
         width: 100%;
         z-index: 100; 
-        margin-top: 34%;
+        margin-top: 15%;
         margin-bottom: 30%;
         
         
@@ -166,17 +166,17 @@ h4 {
   h3 {
     display: inline-block;
     font-size: 50px; 
-    color:black; 
+    color:whitesmoke; 
  }
 
  
 
  h2{
     font-size: 25px;
-    color: white;
+    color: black;
  }
  .column p{
-     color: white;
+     color: black;
      font-size: 20px;
  }
 
@@ -209,7 +209,8 @@ h4 {
     text-align: center;    
     width: 100%;
     z-index: 1; 
-    margin-top: 40%;
+    margin-top: 15%;
+    margin-bottom: 30px;
     /* flex-direction: row; */
     
     
@@ -233,8 +234,8 @@ h4 {
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
-      margin: 0 -5px;
-        /* margin-top: 10%; */
+      margin: 0 0px;
+        
         display: flex;
     }
   
@@ -267,7 +268,8 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
-    background-color: inherit;
+    background-color: #abf1f5;
+    height: 100%;
 
   }
 
@@ -335,7 +337,7 @@ h4 {
 
   .card:hover {
     background-position: 100% 100%;
-    animation: up-bump 0.4s ease;
+    animation: up-bump 0.2s ease;
   }
 
   .card-2:hover {
@@ -348,8 +350,8 @@ h4 {
 
 
   @keyframes up-bump {
-    0% { padding-top: 2em; }
-  50% { padding-top: 2.5em; }
+    0% { padding-top: 1em; }
+  50% { padding-top: 2em; }
   100% { padding-top: 2em; }
   }
 
@@ -362,7 +364,7 @@ h4 {
     text-align: center;    
     width: 100%;
     z-index: 100; 
-    /* margin-top: 150%; */
+    margin-top: -15%;
     margin-bottom: 20%;
 }
 
@@ -372,6 +374,7 @@ h1{
     font-size: 50px;
     display: inline-block;
     margin-bottom: 30px;
+    color: whitesmoke;
 }
 
 
